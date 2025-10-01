@@ -25,13 +25,14 @@ SECRET_KEY = 'django-insecure-7$3b(!c5b5pmorlw!2+pg@epqf!*4@-bg@(7j+4nsaj5$+vm38
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ["amberecology-letterstrong-8000.codio.io", "localhost", "127.0.0.1"]
 
 
 # Application definition
 
 INSTALLED_APPS = [
     'blog',
+    'rest_framework',
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
